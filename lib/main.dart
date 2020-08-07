@@ -17,6 +17,7 @@ class VlcApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.orange,
         title: Text('Settings'),
         leading: Icon(Icons.arrow_back),
       ),
